@@ -1,0 +1,386 @@
+/*CSS RESET*/
+html,
+body,
+div,
+h1,
+h2,
+p,
+a,
+img,
+small,
+ul,
+li,
+form,
+label,
+figcaption,
+footer,
+header,
+nav,
+section {
+	margin: 0;
+	padding: 0;
+	border: 0;
+
+}
+
+html {
+	background-color: black;
+	font-family: Arial, Helvetica, sans-serif;
+	min-width: 485px;
+	max-width: 1500px;
+
+}
+
+body {
+	position: relative;
+
+	max-width: 1500px;
+	float: none;
+
+}
+
+main {
+	position: relative;
+	margin: 0 auto;
+	max-width: 1500px;
+}
+
+h1 {
+	background-color: white;
+	font-size: 3em;
+	color: #007d7b;
+	position: relative;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-transform: uppercase;
+
+}
+
+
+nav ul {
+	background-color: black;
+	margin: 0 auto;
+	padding-bottom: 10px;
+	text-align: center;
+
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+
+nav a {
+	color: white;
+	list-style: none;
+	font-size: 1.5em;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+nav li {
+	font-weight: bold;
+
+
+}
+
+a:hover {
+	background-color: #007d7b;
+}
+
+[href="#top"] {
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	border: 3px;
+	border-color: white;
+	border-style: solid;
+	padding: 10px;
+	margin: 10px;
+
+
+}
+
+#top:hover {
+	background-color: #007d7b;
+}
+
+button:hover {
+	background-color: white;
+	color: #007d7b;
+}
+
+h2 {
+	text-align: center;
+	font-size: 2em;
+	text-transform: uppercase;
+}
+
+p {
+	font-size: 1.25em;
+	padding: 10px;
+}
+
+#about {
+	background-color: white;
+	color: black;
+	margin-bottom: 20px;
+	padding-top: 10px;
+
+}
+
+#gallery {
+	background-color: white;
+	color: black;
+	margin-top: -30px;
+	padding-top: 20px;
+
+}
+
+
+figure {
+	background-color: white;
+	text-align: center;
+}
+
+figcaption {
+	font-size: 1em;
+	text-transform: uppercase;
+
+
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+
+.chile {
+	position: relative;
+	top: -30px;
+	color: white;
+
+}
+
+.hawaii {
+	position: relative;
+	top: -30px;
+	color: white;
+}
+
+.moab {
+	position: relative;
+	top: -30px;
+	color: white;
+}
+
+.italy {
+	position: relative;
+	top: -30px;
+	color: black;
+}
+
+.guatemala {
+	position: relative;
+	top: 30px;
+	color: white;
+}
+
+.rocky {
+	position: relative;
+	top: 30px;
+	color: black;
+}
+
+.switzerland {
+	position: relative;
+	top: 30px;
+	color: black;
+}
+
+.uk {
+	position: relative;
+	top: 30px;
+	color: black;
+}
+
+.usa {
+	position: relative;
+	top: 30px;
+	color: black;
+}
+
+.wyoming {
+	position: relative;
+	top: 30px;
+	color: white;
+}
+
+.ireland {
+	position: relative;
+	top: 30px;
+	color: black;
+}
+
+.iran {
+	position: relative;
+	top: 30px;
+	color: black;
+}
+
+form {
+	color: white;
+	text-align: center;
+}
+
+label {
+	color: white;
+	font-size: 1em;
+	text-transform: uppercase;
+	float: left;
+}
+
+button {
+	background-color: #007d7b;
+	border-radius: 20px;
+	border: none;
+	color: white;
+	width: 250px;
+	height: 50px;
+	font-size: 1em;
+	font-weight: bold;
+	text-transform: uppercase;
+
+}
+
+input {
+	width: 100%;
+	height: 50px;
+	font-size: 1em;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+div {
+	padding: 10px;
+}
+
+#contact {
+	color: white;
+	text-align: center;
+}
+
+::placeholder {
+	color: #007d7b;
+}
+
+footer {
+	color: white;
+	font-size: 1em;
+	text-align: center;
+	margin: 30px;
+	text-transform: uppercase;
+}
+
+@media screen and (min-width: 485px) {
+
+
+	body {
+		margin-right: 40px;
+		margin-left: 40px;
+	}
+
+	.photos {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr;
+		position: relative;
+		margin: 0 auto;
+
+	}
+
+	nav ul {
+		margin-bottom: 10px;
+		position: relative;
+		padding-left: 30px;
+
+	}
+
+	nav li {
+		margin: 15px;
+	}
+
+}
+
+@media screen and (min-width: 880px) {
+	nav ul {
+		text-align: center;
+		width: 700px;
+		margin-bottom: 10px;
+
+	}
+
+	nav li {
+		margin-left: 100px;
+	}
+
+	h1 {
+		text-align: left;
+		position: relative;
+		padding-left: 10px;
+
+	}
+
+	.photos {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr;
+		position: relative;
+		margin: 0 auto;
+
+	}
+
+	figcaption {
+		margin-top: -16px;
+	}
+
+	body {
+		margin-left: 60px;
+		margin-right: 60px;
+	}
+
+
+}
+
+
+@media screen and (min-width: 1300px) {
+	h1 {
+		text-align: left;
+		position: relative;
+		padding-left: 10px;
+
+	}
+
+	nav ul {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		text-align: right;
+		padding-left: 400px;
+		padding-right: 10px;
+		margin-bottom: -20px;
+	}
+
+	.photos {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		position: relative;
+
+	}
+
+	body {
+		margin-left: 80px;
+		margin-right: 80px;
+	}
+
+}
